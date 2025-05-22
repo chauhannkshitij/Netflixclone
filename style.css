@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("IN-en-20250519-TRIFECTA-perspective_8f1ca896-9e49-4a4e-90f0-22fc49650bd9_large.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(100vw, 1200px);
+    height: 80vh;
+    position: relative;
+}
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.65;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    
+}
+nav img{
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    padding: 0px 30px;
+    text-align: center;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+.hero .tag1{
+    font-size:56px;
+    font-weight: 900;
+    line-height: 70px;
+}
+.hero :nth-child(4){
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero :nth-child(5){
+    font-size: 16px;
+    font-weight: 400;
+}
+.separation{
+    height: 4px;
+   background-color:  rgb(79, 77, 77);
+   width: 100vw;
+   border-radius: 30px;
+}
+.hero-button{
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    gap: 16px;
+    padding :13px;
+}
+.btn{
+    padding: 3px 8px;
+    
+    background-color: white;
+}
+.redsm{
+    background-color: red;
+    padding: 4.9px 12px; 
+    border-radius: 4px;
+}
+.btnred{
+background-color: red;
+font-size: 20px;
+color: white;
+padding: 11px;
+border-radius: 4px;
+position: relative;
+margin: auto;
+}
+.email{
+    font-weight: 500;
+    background-color: unset;
+    border: 2px solid grey ;
+    width: 24em;
+    color: white;
+    padding :13px
+    
+}
+#language{
+    background-color:rgba(23,23,23,.2);
+    height: 25px;
+    width: 80px;
+}
+.right-corner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
+}
+.trending h4{
+    font-size: 24px;
+    color: white;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 500;
+    padding: 50px;
+}
+
+.trending{
+    margin: 0px 0px 0px 0px;
+}
+.morereasons h4{
+    font-size: 24px;
+    color: white;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 500;
+    padding: 50px;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxx{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.boxxx{
+    height: 240px;
+    width: 293px;
+    border: 2px solid white;
+    border-radius: 12px;
+   color: white;
+   background-color: rgb(16, 3, 29);
+   padding: 10px;
+   font-size: 16px;
+   font-weight: 400;
+   font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif
+;
+   
+}
+.headd{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 15px 0px 15px 5px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif
+;
+}
+.faq h4{
+    font-size: 24px;
+    color: white;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 500;
+    padding: 50px 0px 10px 50px;
+}
+.faqs{
+    display: inline-table;
+    align-items: center;
+    margin: 10px 0px 10px 50px;
+}
+.fqa{
+    height: 55px;
+    width: 70vw;
+    display: flex;
+    padding: 10px 50px 5px 50px;
+    margin: 0px 0px 10px 0px ;
+    background-color: rgb(42, 41, 41);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: white;
+}
+.foot span{
+    margin: 25px 0px 10px 0px;
+    color: white;
+       font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.foot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: px 0px 0px 100px;
+}
+.email-foot{
+    font-weight: 500;
+    background-color: unset;
+    margin-left: -133px;
+    border: 2px solid grey ;
+    width: 45em;
+    color: white;
+    padding :13px
+}
+.button-foot{
+background-color: red;
+font-size: 20px;
+color: white;
+margin-left: -100px;
+padding: 11px;
+border-radius: 4px;
+position: relative;
+margin-left: 10px;
+}
+
+.foot3 h5{
+     font-size: 16px;
+    color: white;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 00;
+    padding: 50px 0px 10px 50px;
+}
+table{
+    font-size: 16px;
+    color: white;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 00;
+    margin: 10px 50px 0px 50px; 
+}
+td{
+    padding: 10px 25px 10px 200px;
+}
+#language1{
+    margin-left: 50px;
+}
