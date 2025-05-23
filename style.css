@@ -249,3 +249,123 @@ td{
 #language1{
     margin-left: 50px;
 }
+/* --- Responsive Styles --- */
+
+/* For tablets and smaller (≤768px) */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        padding: 0 20px;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+    }
+
+    .hero .tag1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .hero :nth-child(4),
+    .hero :nth-child(5) {
+        font-size: 16px;
+    }
+
+    .hero-button {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .email,
+    .email-foot {
+        width: 90%;
+    }
+
+    .images,
+    .boxx {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .boxxx {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .fqa {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    td {
+        padding: 5px 10px;
+    }
+
+    .foot2 {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 20px;
+    }
+
+    .button-foot {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+/* For mobile devices (≤480px) */
+@media (max-width: 480px) {
+    .hero .tag1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    nav img {
+        width: 100px;
+    }
+
+    .btnred,
+    .redsm,
+    .button-foot {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .email,
+    .email-foot {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .trending h4,
+    .morereasons h4,
+    .faq h4 {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .foot3 h5 {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    table {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    td {
+        padding: 5px;
+    }
+
+    .fqa {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .boxxx {
+        font-size: 14px;
+    }
+}
